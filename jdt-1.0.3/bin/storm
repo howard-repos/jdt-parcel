@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export STORM_CONF_DIR=/etc/storm/conf
+jdt-storm "$@"

@@ -1,0 +1,14 @@
+{
+    "jdt-storm": {
+      "destination": "/usr/bin/jdt-storm",
+      "source": "storm-0.9.4/bin/storm",
+      "priority": 10,
+      "isDirectory": false
+    },
+    "storm": {
+      "destination": "/usr/bin/storm",
+      "source": "bin/storm",
+      "priority": 10,
+      "isDirectory": false
+    }
+}
