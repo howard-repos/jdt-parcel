@@ -9,7 +9,8 @@
   "provides": [
     "storm",
     "kafka-manager",
-    "mongodb"
+    "mongodb",
+    "jdt-kafka"
   ],
   "scripts": {
     "defines": "jdt.sh"
@@ -26,6 +27,10 @@
     {
       "name": "kafka-manager",
       "version": "1.2.7"
+    },
+    {
+      "name": "kafka_2.11",
+      "version": "0.8.2.1"
     }
   ],
   "components": [
@@ -43,6 +48,11 @@
       "name": "kafka-manager",
       "version": "1.2.7",
       "pkg_version": "1.2.7"
+    },
+    {
+      "name": "kafka_2.11",
+      "version": "0.8.2.1",
+      "pkg_version": "0.8.2.1"
     }
   ],
   "users": {
@@ -61,6 +71,12 @@
     "kafka-manager": {
       "longname": "kafka-manager",
       "home": "/var/lib/kafka-manager",
+      "shell": "/bin/bash",
+      "extra_groups": []
+    },
+    "kafka": {
+      "longname": "kafka",
+      "home": "/var/lib/kafka",
       "shell": "/bin/bash",
       "extra_groups": []
     }
