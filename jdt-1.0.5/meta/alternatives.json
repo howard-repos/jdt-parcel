@@ -10,5 +10,11 @@
       "source": "bin/storm",
       "priority": 10,
       "isDirectory": false
+    },
+	"mongo": {
+      "destination": "/usr/bin/mongo",
+      "source": "mongodb-3.0.15/bin/mongo",
+      "priority": 10,
+      "isDirectory": false
     }
 }
