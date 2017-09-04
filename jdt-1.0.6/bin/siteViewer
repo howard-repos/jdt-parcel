@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export LOG_DIR=/tmp/kafkalog
+zookeeper=$(cat /etc/jdt-kafka/conf/client.properties)
+/opt/cloudera/parcels/jdt/kafka_2.11-0.8.2.1/bin/kafka-console-consumer.sh --zookeeper "$zookeeper" --topic ubm-site
