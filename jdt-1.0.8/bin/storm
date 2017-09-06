@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export STORM_CONF_DIR=/etc/storm/conf
+/opt/cloudera/parcels/jdt/storm-0.9.4/bin/storm "$@"
